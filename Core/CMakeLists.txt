@@ -3,4 +3,4 @@ project(Core)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_library(Core SHARED library.cpp library.h NetworkManager.cpp NetworkManager.h)
+add_library(Core SHARED NetworkManager.cpp NetworkManager.h)

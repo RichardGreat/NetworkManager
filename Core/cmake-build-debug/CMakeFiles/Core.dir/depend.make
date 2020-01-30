@@ -4,6 +4,3 @@
 CMakeFiles/Core.dir/NetworkManager.cpp.o: ../NetworkManager.cpp
 CMakeFiles/Core.dir/NetworkManager.cpp.o: ../NetworkManager.h
 
-CMakeFiles/Core.dir/library.cpp.o: ../library.cpp
-CMakeFiles/Core.dir/library.cpp.o: ../library.h
-

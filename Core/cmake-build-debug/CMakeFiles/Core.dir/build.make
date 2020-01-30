@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/imacgws/Desktop/C++ library/Core"
+CMAKE_SOURCE_DIR = /Users/imacgws/Desktop/NetworkManager/Core
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/imacgws/Desktop/C++ library/Core/cmake-build-debug"
+CMAKE_BINARY_DIR = /Users/imacgws/Desktop/NetworkManager/Core/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Core.dir/depend.make
@@ -57,45 +57,30 @@ include CMakeFiles/Core.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Core.dir/flags.make
 
-CMakeFiles/Core.dir/library.cpp.o: CMakeFiles/Core.dir/flags.make
-CMakeFiles/Core.dir/library.cpp.o: ../library.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/imacgws/Desktop/C++ library/Core/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Core.dir/library.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/library.cpp.o -c "/Users/imacgws/Desktop/C++ library/Core/library.cpp"
-
-CMakeFiles/Core.dir/library.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/library.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/imacgws/Desktop/C++ library/Core/library.cpp" > CMakeFiles/Core.dir/library.cpp.i
-
-CMakeFiles/Core.dir/library.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/library.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/imacgws/Desktop/C++ library/Core/library.cpp" -o CMakeFiles/Core.dir/library.cpp.s
-
 CMakeFiles/Core.dir/NetworkManager.cpp.o: CMakeFiles/Core.dir/flags.make
 CMakeFiles/Core.dir/NetworkManager.cpp.o: ../NetworkManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/imacgws/Desktop/C++ library/Core/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Core.dir/NetworkManager.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/NetworkManager.cpp.o -c "/Users/imacgws/Desktop/C++ library/Core/NetworkManager.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/imacgws/Desktop/NetworkManager/Core/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Core.dir/NetworkManager.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Core.dir/NetworkManager.cpp.o -c /Users/imacgws/Desktop/NetworkManager/Core/NetworkManager.cpp
 
 CMakeFiles/Core.dir/NetworkManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Core.dir/NetworkManager.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/imacgws/Desktop/C++ library/Core/NetworkManager.cpp" > CMakeFiles/Core.dir/NetworkManager.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/imacgws/Desktop/NetworkManager/Core/NetworkManager.cpp > CMakeFiles/Core.dir/NetworkManager.cpp.i
 
 CMakeFiles/Core.dir/NetworkManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Core.dir/NetworkManager.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/imacgws/Desktop/C++ library/Core/NetworkManager.cpp" -o CMakeFiles/Core.dir/NetworkManager.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/imacgws/Desktop/NetworkManager/Core/NetworkManager.cpp -o CMakeFiles/Core.dir/NetworkManager.cpp.s
 
 # Object files for target Core
 Core_OBJECTS = \
-"CMakeFiles/Core.dir/library.cpp.o" \
 "CMakeFiles/Core.dir/NetworkManager.cpp.o"
 
 # External object files for target Core
 Core_EXTERNAL_OBJECTS =
 
-libCore.dylib: CMakeFiles/Core.dir/library.cpp.o
 libCore.dylib: CMakeFiles/Core.dir/NetworkManager.cpp.o
 libCore.dylib: CMakeFiles/Core.dir/build.make
 libCore.dylib: CMakeFiles/Core.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/imacgws/Desktop/C++ library/Core/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library libCore.dylib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/imacgws/Desktop/NetworkManager/Core/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libCore.dylib"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Core.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -108,6 +93,6 @@ CMakeFiles/Core.dir/clean:
 .PHONY : CMakeFiles/Core.dir/clean
 
 CMakeFiles/Core.dir/depend:
-	cd "/Users/imacgws/Desktop/C++ library/Core/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/imacgws/Desktop/C++ library/Core" "/Users/imacgws/Desktop/C++ library/Core" "/Users/imacgws/Desktop/C++ library/Core/cmake-build-debug" "/Users/imacgws/Desktop/C++ library/Core/cmake-build-debug" "/Users/imacgws/Desktop/C++ library/Core/cmake-build-debug/CMakeFiles/Core.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /Users/imacgws/Desktop/NetworkManager/Core/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/imacgws/Desktop/NetworkManager/Core /Users/imacgws/Desktop/NetworkManager/Core /Users/imacgws/Desktop/NetworkManager/Core/cmake-build-debug /Users/imacgws/Desktop/NetworkManager/Core/cmake-build-debug /Users/imacgws/Desktop/NetworkManager/Core/cmake-build-debug/CMakeFiles/Core.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Core.dir/depend
 
