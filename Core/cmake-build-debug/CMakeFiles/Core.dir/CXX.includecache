@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/imacgws/Desktop/C++ library/Core/NetworkManager.cpp
+string
+-
+NetworkManager.h
+/Users/imacgws/Desktop/C++ library/Core/NetworkManager.h
+
+/Users/imacgws/Desktop/C++ library/Core/NetworkManager.h
+string
+-
+
